@@ -4,6 +4,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
 <body>
 
 
@@ -90,11 +94,60 @@
       <div class="carousel-box">
         <div class="title">I love You ❤️</div>
         <div class="num">10</div>
-        <img src="c:\Users\ROHIT JAISWAL\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\2B24D495052A8CE66358EB576B8912C8\WhatsApp Image 2024-01-12 at 17.19.06_3444c92a.jpg" />
+        <img src="https://th.bing.com/th/id/OIP.Ygd7yNnIq11Kb8Cvf1yRHQHaJ1?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7" />
       </div>
     </div>
   </div>
   
+  <div class="container">
+    <div>
+      <h2 class="header_text">I made this website only for you [___]<br> Do you wanna be my forever partner [  love]  ?</h2>
+    </div>
+    <p>
+      <a href="https://www.instagram.com/mr.psycho1official?igsh=b3R1ZG03NHI0dXk3">@Rohit</a>
+    </p>
+    <div class="gif_container">
+      <img
+        src="https://i.postimg.cc/pdNqPxx1/milk-and-mocha-cute.gif"
+        alt="Cute animated illustration"
+      />
+    </div>
+    <div class="buttons">
+      <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+      <button
+        class="btn"
+        id="noButton"
+        onmouseover="moveButton()"
+        onclick="moveButton()"
+      >
+        No
+      </button>
+
+      <script>
+        function nextPage() {
+          window.location.href = "yes.html";
+        }
+
+        function moveButton() {
+          var x =
+            Math.random() *
+            (window.innerWidth -
+              document.getElementById("noButton").offsetWidth);
+          var y =
+            Math.random() *
+            (window.innerHeight -
+              document.getElementById("noButton").offsetHeight);
+          document.getElementById("noButton").style.left = `${x}px`;
+          document.getElementById("noButton").style.top = `${y}px`;
+        }
+      </script>
+    </div>
+  </div>
+
+
+
+
+
   <div class="layout">
     <div class="box">High-end, full-service<br />visual content creation<br />for lifestyle branding.</div>
   </div>
