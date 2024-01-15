@@ -12,7 +12,7 @@ body {
   text-align: justify;
   display: inline-block;
   font-size: 32px;
-  margin: 320px 1px;
+  margin: 390px 1px;
   cursor: pointer;
   border: none;
   border-radius:12px;
@@ -166,10 +166,11 @@ body {
 .social {
   position: absolute;
   z-index: 100;
-  bottom: 200px;
-  right: 100px;
+  bottom: 50px;
+  right: 25px;
   color: #1e7f4d;
   opacity: 0.4;
+
 }
 .social a {
   display: inline-block;
@@ -177,8 +178,8 @@ body {
 }
 .social svg {
   --fill: #cc3213;
-  width: 35px;
-  height: 35px;
+  width: 250px;
+  height: 250px;
 }
 
 .cursor {
