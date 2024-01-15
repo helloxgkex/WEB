@@ -166,7 +166,7 @@ body {
 .social {
   position: absolute;
   z-index: 100;
-  bottom: 50px;
+  bottom: 80px;
   right: 25px;
   color: #a525c5;
   opacity: 0.4;
