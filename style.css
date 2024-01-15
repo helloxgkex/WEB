@@ -130,7 +130,7 @@ body {
 }
 .layout .box {
   position: absolute;
-  bottom: 0;
+  bottom: 1;
   left: 30px;
   color: #fff;
   transform-origin: 0% 10%;
@@ -168,7 +168,7 @@ body {
   z-index: 100;
   bottom: 50px;
   right: 25px;
-  color: #1e7f4d;
+  color: #a525c5;
   opacity: 0.4;
 
 }
@@ -177,7 +177,7 @@ body {
   margin-left: 3px;
 }
 .social svg {
-  --fill: #cc3213;
+  --fill: #f4310a;
   width: 250px;
   height: 250px;
 }
