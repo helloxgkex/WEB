@@ -4,6 +4,24 @@ body {
   background: linear-gradient(135deg, black, #220033);
 }
 
+.btn {
+  background-color: #136ac8;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 15px 30px;
+  text-align: justify;
+  display: inline-block;
+  font-size: 32px;
+  margin: 320px 1px;
+  cursor: pointer;
+  border: none;
+  border-radius:12px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 3px black;
+}
+
+
+
 .carousel {
   position: relative;
   z-index: 1;
@@ -26,7 +44,7 @@ body {
   width: var(--width);
   height: var(--height);
   margin: calc(var(--height) * -0.5) 0 0 calc(var(--width) * -0.5);
-  border-radius: 10px;
+  border-radius: 30px;
   top: 50%;
   left: 50%;
   -webkit-user-select: none;
@@ -73,7 +91,7 @@ body {
 }
 .carousel-item .num {
   position: absolute;
-  z-index: 1;
+  z-index: 1000;
   color: #fff;
   top: 10px;
   left: 20px;
@@ -147,10 +165,10 @@ body {
 
 .social {
   position: absolute;
-  z-index: 10;
-  bottom: 20px;
-  right: 25px;
-  color: #fff;
+  z-index: 100;
+  bottom: 200px;
+  right: 100px;
+  color: #1e7f4d;
   opacity: 0.4;
 }
 .social a {
@@ -158,7 +176,7 @@ body {
   margin-left: 3px;
 }
 .social svg {
-  --fill: #fff;
+  --fill: #cc3213;
   width: 35px;
   height: 35px;
 }
